@@ -1,0 +1,94 @@
+@charset "utf8";
+
+/*Estilização do background da pagina da historia*/
+.pagina-reserva{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.315), white, rgba(0, 128, 0, 0.315))
+}
+
+/*Estilização botao voltar*/
+.botao-voltar{
+    background-color: rgba(255, 0, 0, 0.774);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;  
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);  
+    margin: 30px;
+    position: absolute bottom;
+   
+}
+.botao-voltar a{
+color: white;
+text-decoration: none;
+font-size: 1.5rem;
+
+}
+.botao-voltar:hover{
+    background-color: rgba(255, 94, 0, 0.315);
+}
+
+
+
+/*Estilização do campo do formulário*/
+.formulario-reserva{
+    background-color: white;
+    width: 707px;
+    height: 650px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
+    font-size: 2rem;
+    font-weight: bolder;
+    background-image: url(imagens/fundo-formulario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+fieldset{
+    width: 650px;
+    height: 610px;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*Estilização do titulo da pagina do formulario*/
+.titulo-reserva{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 708px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+
+.botao{
+    background-color: rgb(85, 59, 59);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;  
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);  
+    margin: 30px;
+    position: absolute bottom;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+   
+}
+
+.botao:hover{
+    background-color: rgba(255, 94, 0, 0.315);
+    transform: scale(1.1);
+    transition: 0.8s;
+}
