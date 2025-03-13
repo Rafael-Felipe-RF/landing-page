@@ -1,0 +1,62 @@
+@charset "utf8";
+
+
+/*Estilização do background da pagina da cardápio*/
+body{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.315), white, rgba(0, 128, 0, 0.315));
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+
+
+
+/*Estilização botao voltar*/
+.botao-voltar{
+    background-color: rgba(255, 0, 0, 0.774);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;  
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);  
+    margin: 30px;
+    position: absolute bottom;
+   
+}
+.botao-voltar a{
+color: white;
+text-decoration: none;
+font-size: 1.5rem;
+
+}
+.botao-voltar:hover{
+    background-color: rgba(255, 94, 0, 0.315);
+}
+
+/*Estilização das divs do cardápio*/
+
+/*div que a imagem ficará na esquerda*/
+
+.dives{    
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);   
+}
+
+.imagem{
+    width: 200px;
+    height: 300px;
+    float: left;
+    
+}
+
+.texto{
+    width: 280px;
+    font-size: 1.2rem;    
+    float: right;
+    margin: 10px;
+}
+
