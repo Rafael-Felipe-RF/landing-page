@@ -12,45 +12,32 @@
     <section class="titulo-reserva">
         <h1>Reservas</h1>
         <p>Para fazer a sua reserva preencha o formulário abaixo:</p>
-    </section>
+    </section>  
 
-    <section class="formulario-reserva">
-        <fieldset>
-            <legend>Faça a sua reserva</legend>
+<section class="formulario-reserva">
+    <fieldset>
+        <legend>Faça a sua reserva</legend>
+        <form action="" method="post" autocomplete="on">
+        <label for="iname">Nome:</label>
+        <input type="text" id="name" name="iname" requiered placeholder="digite o seu nome..."> <br>
 
-            <form action="" method="post" autocomplete="on">
+        <label for="iemail">Email:</label>
+        <input type="email" id="email" name="iemail" required placeholder="digite seu email..."> <br>
 
-                <label for="iname">Nome:</label>
-                <input type="text" id="name" name="iname" requiered placeholder="digite o seu nome..."> <br>
+        <label for="idata">Data da Reserva:</label>
+        <input type="date" id="data" name="idata" required> <br>
 
-                <label for="iemail">Email:</label>
-                <input type="email" id="email" name="iemail" required placeholder="digite seu email..."> <br>
+        <label for="ipessoas">Quantidade de Pessoas:</label>
+        <input type="number" id="pessoas" name="ipessoas" required placeholder="quantidade de pessoas..."> <br>
 
-                <label for="idata">Data da Reserva:</label>
-                <input type="date" id="data" name="idata" required> <br>
-
-                <label for="ipessoas">Quantidade de Pessoas:</label>
-                <input type="number" id="pessoas" name="ipessoas" required placeholder="quantidade de pessoas..."> <br>
-
-                <label for="ihora">Horário</label>
-                <input type="time" id="hora" name="ihora" required> <br>
-
-                
-
-                <input class="botao" type="reset" value="Limpar">
-                <input class="botao" type="submit" value="Enviar">
-
-
-
-
-
-
-
-
-            </form>
-        </fieldset>
-    </section>
-    
+        <label for="ihora">Horário</label>
+        <input type="time" id="hora" name="ihora" required> <br>
+        
+        <input class="botao" type="reset" value="Limpar">
+        <input class="botao" type="submit" value="Enviar">
+        </form>
+    </fieldset>
+</section> 
 
 
 
