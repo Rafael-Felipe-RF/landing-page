@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservas</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="reservas-style.css">
+    <link rel="stylesheet" href="../estilos/estilo-movel.css">
 </head>
 <body class="pagina-reserva">
 
@@ -16,18 +16,18 @@
 
 <section class="formulario-reserva">
     <fieldset>
-        <legend>Faça a sua reserva</legend>
-        <form action="" method="post" autocomplete="on">
+        <legend>Faça sua reserva</legend>
+        <form id="formulario" action="" method="post" autocomplete="on">
         <label for="iname">Nome:</label>
         <input type="text" id="name" name="iname" requiered placeholder="digite o seu nome..."> <br>
 
         <label for="iemail">Email:</label>
         <input type="email" id="email" name="iemail" required placeholder="digite seu email..."> <br>
 
-        <label for="idata">Data da Reserva:</label>
+        <label for="idata">Data:</label>
         <input type="date" id="data" name="idata" required> <br>
 
-        <label for="ipessoas">Quantidade de Pessoas:</label>
+        <label for="ipessoas">Convidados:</label>
         <input type="number" id="pessoas" name="ipessoas" required placeholder="quantidade de pessoas..."> <br>
 
         <label for="ihora">Horário</label>
@@ -38,12 +38,8 @@
         </form>
     </fieldset>
 </section> 
-
-
-
-<footer>
-    <button class="botao-voltar"><a id="botao-voltar" href="index.html">Voltar</a></button>
-</footer>
+    
+    <button class="botao-voltar"><a href="index.html"><img src="../imagens/botao-voltar-pagina.png" alt=""></a></button>
         
 </body>
 </html>
