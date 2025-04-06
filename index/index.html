@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bistecca Fiorentina</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/estilo-movel.css">
     </head>
 <body>
     <!--header, cabeçalho da página-->
-    <header>
-        
-        <nav>            
-            <ul>
-                <img class="bandeira" src="../imagens/bandeira itália.png" alt="">
-                <li><a href="cardápio.html" target="_self" rel="next">Cardápio</a></li>
-                <li><a href="#">Contato</a></li>    
-                <li><a href="reservas.html" target="_self" rel="next">Reservas</a></li>
-                <li><a href="endereco.html" target="_self" rel="next">Como Chegar</a></li>
-                <li><a href="historia.html" target="_self" rel="next">Nossa História</a></li>
-            </ul>
+    <header>           
+        <nav class="menu-cabecalho">  
+            <h1>Bistecca Fiorentina</h1>            
+                <details>
+                    <summary> 
+                        <i id="icone" class="bi bi-list"></i>
+                    </summary>
+                    <ul class="lista-cabecalho">
+                        <li><a href="cardápio.html" target="_self" rel="next">Cardápio</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="reservas.html" target="_self" rel="next">Reservas</a></li>
+                        <li><a href="endereco.html" target="_self" rel="next">Como Chegar</a></li>
+                        <li><a href="historia.html" target="_self" rel="next">Nossa História</a></li>
+                    </ul>
+                </details>
         </nav>
     </header>
 
     <!--Aqui começa o corpo da página-->
     <main>
-        <div class="container-imagem">
-            <p class="texto-welcome">Venha experimentar a essência <br> da Itália em nossas mesas!</p>
+        <div>
+            <p>Venha experimentar a essência da Itália em nossas mesas!</p>
         </div>
 
-        <div class="conteudo-principal">
+        <div>
 
             <p>O quanto de história pode ser contada em um prato de comida? Como cada garfada pode te ajudar a se conectar um pouco mais com diferentes tradições? A culinária da Itália guarda mais do que deliciosas refeições, e a melhor forma de se aprofundar nisso, é mergulhando de cabeça na gastronomia da península itálica.</p>
 
@@ -36,7 +42,7 @@
             <br> <br>
 
                 
-            <section class="sumario-escondido">
+            <section>
                 <details>
                     <summary>Sumário</summary>
                     <ul>
@@ -85,7 +91,7 @@
                     <p>A pizza napolitana é tão importante na cultura e na cozinha italiana que desde 2017 é considerada patrimônio imaterial cultural pela UNESCO. Além disso, existe até uma organização para garantir a qualidade e tradição da autêntica pizza napolitana ao redor do mundo: a Associazione Verace Pizza Napoletana. Definitivamente, não estávamos brincando quando dissemos que comida na Itália é coisa séria!
                     </p>
                     <picture>
-                        <img src="../imagens/pizza.jpg" alt="">
+                        <img src="../imagens/pizza.png" alt="">
                     </picture>
 
                 <h3>Gelato</h3>
@@ -101,7 +107,7 @@
                     <p>Estava criado o famoso gelato italiano! A nova sobremesa fez tanto sucesso que Procope recebeu das mãos do próprio Rei Sol, Luís XIV, a licença especial para produzir aquelas delícias geladas. Quem diria que havia tanta história por trás de uma das mais famosas comidas típicas italianas?
                     </p>
                     <picture>
-                        <img src="../imagens/gelato.jpg" alt="">
+                        <img src="../imagens/gelato2.png" alt="">
                     </picture>
 
                 <h3>Caccio Peppe</h3>
@@ -114,7 +120,7 @@
                     <p>Com o tempo, esta mistura espalhou-se pelos campos do Lazio e das regiões vizinhas, levando ao surgimento do cacio e pepe. Em suma: é graças aos antigos pastores romanos que temos hoje esta maravilha das comidas típicas italianas!
                     </p>
                     <picture>
-                        <img src="../imagens/caccio peppe.jpg" alt="">
+                        <img src="../imagens/caccio peppe.png" alt="">
                     </picture>
 
                 <h3>Tiramissu</h3>
@@ -160,6 +166,8 @@
 
     </main>
 
+   
+
     <footer>
 
         <p>Este site foi criado por Rafael Felipe - Todo o conteúdo é Fictício, as imagens são da internet. Fonte do conteúdo Wikipédia.</p>
@@ -179,5 +187,8 @@
             <li><a href="#pratos">Pratos Típicos</a></li>
         </ul>
     </footer>
+
+
+   
 </body>
 </html>
