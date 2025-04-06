@@ -30,19 +30,22 @@ cor6 #381F12
         
     }
   
-    /*Estilização do Cabeçalho da Página*/
+    /**********************************
+    Estilização do Cabeçalho da Página
+    ***********************************/
 
     .menu-cabecalho{
         background-color: #381F12;
         display: inline-block;
-        width: 99vw;        
+        width: 100vw;        
     }
 
     nav > h1{
         color: white;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
         text-align: center;
         font-size: 2rem;
+        margin-top: 30px;
     }
 
     nav ul li{
@@ -71,15 +74,81 @@ cor6 #381F12
     #icone{
         color: white;
         font-size: 35px;
+        cursor: pointer;
     }
     
 
-  
+  /***********************************
+  Estilização do corpo da página
+  ************************************/
 
-    
-    picture img{
+    body{
+        background-color: #C8B0A3;
+    }
+
+    .sumario{
+        display: none;
+    }
+
+    main{
+        background-color: white;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    }
+
+    picture img{    
         width: 80vw;
+        display: block;
+        margin: 30px auto;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);        
     }   
+
+    .titulo-principal{
+        font-size: 2rem;
+        margin: 30px;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+    }
+
+    .conteudo-principal p{
+        text-indent: 30px;
+        padding: 10px;
+        line-height: 20px;
+    }
+
+    .conteudo-principal h2{
+        font-size: 1.8rem;
+        font-weight: 100;
+    }
+
+    .conteudo-principal h3{
+        margin: 20px;
+        text-decoration: underline;
+    }
+
+    hr{
+        border-color: #993a0742;
+    }
+
+    .botao-voltar{
+        border-style: none;
+        background-color: transparent;
+        cursor: pointer;  
+        position: fixed;  
+        bottom: 20px;
+        right: 20px;    
+        background-color: #381f1233;
+        border-radius: 50%;
+        padding: 5px;        
+    }
+
+    /*********************************
+    Estilização do rodapé
+    **********************************/
+    
 
 
 

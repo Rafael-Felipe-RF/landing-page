@@ -10,7 +10,7 @@
     </head>
 <body>
     <!--header, cabeçalho da página-->
-    <header>           
+    <header id="inicio">           
         <nav class="menu-cabecalho">  
             <h1>Bistecca Fiorentina</h1>            
                 <details>
@@ -31,20 +31,20 @@
     <!--Aqui começa o corpo da página-->
     <main>
         <div>
-            <p>Venha experimentar a essência da Itália em nossas mesas!</p>
+            <p class="titulo-principal">Venha experimentar a essência da Itália em nossas mesas!</p>
         </div>
 
-        <div>
+        <div class="conteudo-principal">
 
             <p>O quanto de história pode ser contada em um prato de comida? Como cada garfada pode te ajudar a se conectar um pouco mais com diferentes tradições? A culinária da Itália guarda mais do que deliciosas refeições, e a melhor forma de se aprofundar nisso, é mergulhando de cabeça na gastronomia da península itálica.</p>
 
             <p>Mas engana-se quem pensa que a gastronomia da região se resume a macarrão e pizza. A culinária italiana é vasta, recheada de pratos e sabores. Quer saber mais sobre a sua origem e conhecer os seus melhores pratos? Então continue a leitura!</p>
-            <br> <br>
+            
 
                 
-            <section>
+            <section class="sumario"> 
                 <details>
-                    <summary>Sumário</summary>
+                    <summary>Sumário</summary> <!--Exibido apenas na versão de telas grandes-->
                     <ul>
                     <li><a href="#culinaria">Culinária Italiana</a></li>
                     <li><a href="#historia">História da Culinátia Italiana</a></li>
@@ -53,7 +53,7 @@
                     </ul>
                     </details>
             </section>
-            <br><br>
+           
 
 
             <h2 id="culinaria" class="titulo-principal">Culinária Italiana</h2> <hr>
@@ -61,6 +61,7 @@
 
                 <p>É uma das culinárias mais populares do mundo, com suas pizzas, massas, vinhos e outros tipos de preparações. Tanto ingredientes como pratos mudam de região para região do país. Existem diversos pratos regionais importantes que também assumiram caráter nacional, enquanto diversos pratos proliferaram, em diversas variantes, por todo o mundo. Queijo e vinho são uma parte importantíssima da cozinha do país, desempenhando diferentes papeis tanto regionalmente quanto nacionalmente, com sua grande variedade e leis de regulamentação (Denominazione di origine controllata, DOC). Também o café, mais especificamente o espresso, assumiu um papel de destaque na cultura gastronômica da Itália.
                 </p>
+
             <h2 id="historia" class="titulo-principal">História da culinária Italiana</h2> <hr>
                 <p>A culinária italiana evoluiu extensivamente ao longo dos séculos. Embora a Itália como país, tal qual a conhecemos hoje, não tenha se formado até a Década de 60 do Século XIX, a culinária típica daquele país apresenta raízes que vão até pelo menos o século IV a.C. Através de diversas influências ao longo desta sua história, inclusive das regiões vizinhas, e devido à mudanças ocorridas depois de conquistas e distúrbios políticos, assim como a descoberta do Novo Mundo, formou-se uma tradição culinária concreta, que é reconhecida hoje em dia como uma das mais destacadas do mundo, onde surgiu a Pizza, a Lasanha e muitas outras massas que conhecemos.
                 </p>
@@ -140,7 +141,7 @@
 
                     <p>Provavelmente era uma bistecca alla fiorentina, um clássico da cozinha toscana e uma das comidas típicas italianas icônicas. Em outras palavras, trata-se de uma grande bisteca com cerca de 1kg a 1,5kg e cerca de 6cm de espessura, exposta à brasa por poucos minutos e, por isso mesmo, tenra e malpassada. Além disso, a fiorentina tradicional é um corte de boi da raça “chianina”, típica da Toscana.</p>
 
-                    <p>As origens dabistecca alla fiorentina são muito antigas e estão ligadas à história de Florença. Diz a lenda que durante o período em que a cidade era governada pelos Medici (entre os séculos XV e XVII), os governantes costumavam celebrar o dia de San Lorenzo, 10 de agosto, com imensas fogueiras nas praças da cidade.</p>
+                    <p>As origens da bistecca alla fiorentina são muito antigas e estão ligadas à história de Florença. Diz a lenda que durante o período em que a cidade era governada pelos Medici (entre os séculos XV e XVII), os governantes costumavam celebrar o dia de San Lorenzo, 10 de agosto, com imensas fogueiras nas praças da cidade.</p>
                     
                     <p>Nelas, era assada carne regada com vinho, posteriormente servida ao povo. O banquete, claro, era muito esperado por todos durante o ano. De tão importante, tornou-se um símbolo das tradições de Florença.</p>
 
@@ -162,12 +163,14 @@
 
                    
         </div>
+
+        <button class="botao-voltar"><a href="#inicio"><img src="../imagens/botao-voltar.png" alt=""></a></a></button>
         
 
     </main>
 
    
-
+    
     <footer>
 
         <p>Este site foi criado por Rafael Felipe - Todo o conteúdo é Fictício, as imagens são da internet. Fonte do conteúdo Wikipédia.</p>
