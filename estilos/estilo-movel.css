@@ -13,14 +13,16 @@ cor6 #381F12
 */
 
 :root{
-
 --cor01: #C8B0A3;
 --cor02: #993A07;
 --cor03: #F2BB9D;
 --cor04: #73594B;
 --cor05: #381F12;
-
 }
+
+/************************************
+Estilização para telas pequenas
+***********************************/
 
 @media screen and (max-width: 999px) {
 
@@ -309,8 +311,57 @@ cor6 #381F12
         border-radius: 15px;
     }
 
+    /*************************
+    Estilização página do mapa
+    *************************/
 
+    iframe{
+        display: block;
+        margin: 35px auto;
+        width: 80vw;
+        border-radius: 15px;
+        border: 2px solid black;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+    }
 
+    .rodape-mapa p{
+        padding: 35px;
+    }
+
+    /*************************
+    Estilização página da história
+    *************************/
+
+    .titulo-ia{
+        background-color: #381F12;
+        color: white;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .secao-principal h2{
+        text-align: center;
+        margin: 15px;
+    }
+
+    .secao-principal p {
+        text-indent: 30px;
+        margin: 10px;
+        line-height: 20px;
+    }
+
+    .secao-principal ul{
+        margin-left: 50px;
+    }
+
+    .restaurante{
+        width: 85vw;
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+    }
 
 
 
