@@ -133,7 +133,11 @@ cor6 #381F12
         border-color: #993a0742;
     }
 
-    .botao-voltar{
+    /**********************
+    Botão Voltar ao Topo
+    ***********************/
+
+    .botao-voltar-topo{
         border-style: none;
         background-color: transparent;
         cursor: pointer;  
@@ -145,9 +149,91 @@ cor6 #381F12
         padding: 5px;        
     }
 
+    /**********************
+    Botão Voltar Página
+    ***********************/
+
+    .botao-voltar{
+        border-style: none;
+        background-color: transparent;
+        cursor: pointer;  
+        position: fixed;  
+        bottom: 100px;
+        right: 20px;    
+        background-color: #381f1233;
+        border-radius: 50%;
+        padding: 5px;  
+    }
+
     /*********************************
     Estilização do rodapé
     **********************************/
+
+    footer{
+        background-color: #381F12;
+    }
+
+    footer p{
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        margin-bottom: 10px;   
+    }
+    
+    .lista-rodape{
+        column-count: 2;
+        column-gap: 20px;
+        padding: 10px;
+        list-style-type: none;
+    }
+
+    /*************************
+    Estilização do Cardápio
+    *************************/
+
+    .secao-inicial h1{
+        background-color: #381F12;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        letter-spacing: 8px;
+        width: 95vw;
+    }
+
+    .dives{
+        background-color: white;
+        margin: 15px;
+        display: inline-block;
+        width: 93vw;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336);
+    }
+
+    .texto h2{
+        margin: 20px;
+    }
+
+    .texto p {
+        margin: 20px;
+    }
+
+    .imagem img{
+        width: 365.5px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 200px; /* altura da div */
+        border-radius: 0px 0px 10px 10px;
+    }
+
     
 
 
