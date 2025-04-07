@@ -50,17 +50,19 @@ Estilização para telas grandes
     }
 
     .menu-cabecalho{
-        background-color: #381F12;
+        background-color: #472817;
         display: inline-block;
-        width: 100vw;        
+        width: 99.1vw;    
+        border-bottom: 2px solid #C8B0A3;    
     }
 
     nav > h1{
         color: white;
-        letter-spacing: 5px;
+        letter-spacing: 8px;
         text-align: justify;
         font-size: 2rem;
         margin: 30px 30px 10px 10px;
+        font-size: 3rem;
     }
 
     nav ul li{
@@ -74,7 +76,7 @@ Estilização para telas grandes
         padding: 10px;
         letter-spacing: 3px;        
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     nav ul li a:hover{
@@ -88,9 +90,7 @@ Estilização para telas grandes
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
-
-    
+    }    
     
 
   /***********************************
@@ -99,33 +99,68 @@ Estilização para telas grandes
 
     body{
         background-color: #C8B0A3;
-    }
-
-    .sumario{
-        display: block;
-    }
+    }    
 
     main{
         background-color: white;
         padding: 15px;
-        margin: 10px;
-        border-radius: 10px;
+        border-radius: 0px 0px 10px 10px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+        width: 800px;
+        display: block;
+        margin: 650px auto;
+    }
+
+    .titulo-principal{
+        margin: 35px;
+        text-align: center;
+    }
+
+    
+
+   /* .sumario{
+        background-color: #993a0748;
+        width: 300px;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 25px;
+        padding: 10px;
+        display: block;
+        margin: auto;
+        list-style: none;
+    }*/
+
+    .titulo-principal2{
+        width: 99.1vw;
+        height: 650px;
+        background-color: var(--cor05);
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 135px;
+    }
+
+    .imagem-titulo{
+        position: absolute;
+        right: 0;
     }
 
     picture img{    
-        width: 80vw;
+        width: 500px;
         display: block;
         margin: 30px auto;
         border-radius: 15px;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);        
     }   
 
-    .titulo-principal{
-        font-size: 2rem;
+    main div .titulo-principal1{
+        font-size: 4rem;
         margin: 30px;
         text-align: center;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+        color: white;  
+        padding-top: 10%;
+        padding-bottom: 50%;
     }
 
     .conteudo-principal p{

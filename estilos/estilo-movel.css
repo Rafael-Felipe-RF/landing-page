@@ -44,6 +44,10 @@ Estilização para telas pequenas
         display:none;
     }
 
+    .imagem-titulo{
+        display: none;
+    }
+
     .menu-cabecalho{
         background-color: #381F12;
         display: inline-block;
@@ -116,7 +120,7 @@ Estilização para telas pequenas
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);        
     }   
 
-    .titulo-principal{
+    .titulo-principal1{
         font-size: 2rem;
         margin: 30px;
         text-align: center;
